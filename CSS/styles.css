@@ -1,0 +1,356 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+  }
+  
+  a{   
+    text-decoration: none;
+  }
+  
+  .entirepage
+  {
+    width: 100%;
+    height: fit-content;
+    overflow-x: hidden;
+  }
+
+  .navbar
+  {
+    margin: 10px 45px 10px 90px;
+    display: flex;
+    align-items: center;
+  }
+  .logo 
+  {
+    width: 50%;
+  }
+  .logo img
+  {
+      width: 180px;
+      height: 80px;
+  }
+    .main_nav{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    list-style: none;
+    text-align: right;
+    justify-content: space-between;
+  }
+  
+  .main_nav li{
+    display: inline;
+    color: #6a6a6a;
+  }
+  .main_nav li a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #252B42;
+  }
+
+  .navbar_toggle{
+    display: none;
+  }
+  
+  /*Main Frame*/
+  .backgroundimage
+  {
+    background-image: url(../assets/Rectangle\ 48.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+  }
+  .section1
+  {
+    height: 1250px;
+  }
+
+  .section1-text
+  {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding: 70px;
+  }
+
+  .headingtext
+  {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+  }
+    
+  .section1-button button
+  {
+    padding: 16px 56px 16px 56px;
+    border-radius: 20px;
+    background: transparent;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    border-radius: 30px;
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    margin: 30px;
+    border: 1px solid #fff;
+  }
+
+  .floatingimage
+  {
+    align-content: center;
+    margin: 0px auto;
+  }
+
+  .floatingimage img
+  {
+    padding: 0px 100px 0px 100px;
+    border-bottom: 3px solid #E4E4E4;
+  }
+
+  /*Section 2*/
+  .section2-headingtext
+  {
+    font-family: Montserrat;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    color: #000;
+    line-height: 57px;
+  }
+  .card{
+    margin: 0% 0% -20% 60px;
+    display: flex;
+  }
+
+  .text-container{
+    height: fit-content;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 143.1%;
+    color: #7F7E7E;
+    margin: 20% 0% 0% 0% ;
+    width: 590px;
+  }
+
+  .image-container img{
+    height: 750px;
+    width: 550px;
+  }
+  #paddingspace
+  {
+    padding-left: 100px;
+  }
+
+  .description
+  {
+    width:  462px;
+  }
+
+  /*Section 3*/
+  .section-3
+  {
+    margin-top: 200px;
+    background-image: url(../assets/Rectangle\ 47.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+  }
+
+  .section3-button button
+  {
+    padding: 16px 30px 16px 30px;
+    border-radius: 20px;
+    background: transparent;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    border-radius: 10px;
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    margin: 30px;
+    border: 1px solid #fff;
+  }
+
+  /* Bottom Navigation */
+  .footer{
+    display: flex;
+    margin:35px 150px 50px 150px;
+    align-items: center;
+  }
+
+  .icons{
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    color: #FA4A0C;
+  }
+  .icons i{
+    margin:10px;
+  }
+  .footer p
+  {
+    text-align: right;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: right;
+
+  }
+  .footer img
+  {
+    width: 180px;
+    height: 80px;
+  }
+
+
+
+
+  @media only screen and (max-width : 992px)
+  {
+     .logo img
+  {
+      width: 160px;
+      height: 80px;
+  }
+    .navbar{
+      align-items: center;   
+      justify-content: space-between;
+      margin: 5px 25px 5px 40px;
+    }
+  
+    .main_nav{
+      display: none;
+    }
+  
+    .show_nav{
+      display: flex;
+      width: 100%;
+      height: fit-content;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+  
+    .navbar_toggle {
+      color: #f29f33;
+      background: transparent;
+      border-color: transparent;
+      transition: all 0.3s linear;
+      cursor: pointer;
+      margin: 10px;
+      display: block;
+    }
+
+    .section1{
+    }
+    .section1-text
+  {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+    .headingtext
+    {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 28px;
+    }
+    .section1-button button
+    {
+      margin: 10px;
+      font-size: 16px;
+      padding: 14px 40px 14px 40px;
+    }
+    .floatingimage img
+    {
+      width: 100%;
+      padding: 0px;
+    }
+
+     /*Section 2*/
+     .section2-headingtext
+     {
+       font-family: Montserrat;
+       font-size: 28px;
+      padding: 10px;
+     }
+
+    .card{
+      margin: 0%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    .text-container{
+      font-size: 18px;
+      padding: 10px;
+      margin: 0% auto;
+      text-align: center;
+      width: 95%;
+
+    }
+  
+    .description{
+      width:  95%;
+    }
+    #paddingspace
+    {
+      padding-left: 0px;
+    }
+
+    #addpadding
+    {
+      margin-top: 100px;
+    }
+    #reducepadding
+    {
+      margin-top: -100px;
+    }
+
+    .image-container img{
+      height: 750px;
+      width: 550px;
+      margin-left: -65px;
+    }
+    .section3-button button
+    {
+      margin: 10px;
+      font-size: 16px;
+      padding: 14px 40px 14px 40px;
+    }
+    .footer img
+    {
+      display: none;
+    }
+    .footer{
+      margin: 5%;
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+  }
+
+
+  @media only screen and (max-width : 480px)
+  {
+   .section1
+   {
+     height: 850px;
+   }
+  }
+
+   
