@@ -224,6 +224,7 @@
       height: 80px;
   }
     .navbar{
+      
       align-items: center;   
       justify-content: space-between;
       margin: 5px 25px 5px 40px;
@@ -240,7 +241,11 @@
       flex-direction: column;
       justify-content: flex-start;
     }
-  
+   
+    .main_nav li:hover{
+      background-color: #f29f33;
+      color: #fff;
+    }
     .navbar_toggle {
       color: #f29f33;
       background: transparent;
@@ -251,8 +256,6 @@
       display: block;
     }
 
-    .section1{
-    }
     .section1-text
   {
     font-style: normal;
